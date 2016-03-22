@@ -10,8 +10,8 @@
 
 @interface LXSexangleChart : UIView
 
-+ (instancetype)sexangleChartWithFrame:(CGRect)frame foregroundColor:(UIColor *)color andLevel:(NSInteger)level;
++ (instancetype)sexangleChartWithFrame:(CGRect)frame foregroundColor:(UIColor *)foreColor backgroundColor:(UIColor *)backColor andLevel:(NSInteger)level;
 
-- (instancetype)initWithFrame:(CGRect)frame foregroundColor:(UIColor *)color andLevel:(NSInteger)level;
+- (instancetype)initWithFrame:(CGRect)frame foregroundColor:(UIColor *)foreColor backgroundColor:(UIColor *)backColor andLevel:(NSInteger)level;
 
 @end

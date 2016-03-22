@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LXSexangleChart.h"
 #import "LXDefault.h"
+#import "LXColor.h"
 
 @interface ViewController ()
 
@@ -18,15 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    LXSexangleChart *sexangleChart = [[LXSexangleChart alloc] initWithFrame:CGRectMake(10, 60, 300, 300)];
+    LXSexangleChart *sexangleChart = [[LXSexangleChart alloc] initWithFrame:CGRectMake(10, 60, 300, 300) foregroundColor:LXRedColor backgroundColor:LXRGBAColor(0.0, 0.0, 0.0, 1.0/4) andLevel:4];
     [self.view addSubview:sexangleChart];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
