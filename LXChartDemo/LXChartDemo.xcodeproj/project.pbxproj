@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2055001CA2BB8300FBD637 /* Demo_LXChart_SexangleChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC2054FF1CA2BB8300FBD637 /* Demo_LXChart_SexangleChart.gif */; };
 		BCDEDE881CA2A25A000C094D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDEDE871CA2A25A000C094D /* main.m */; };
 		BCDEDE8B1CA2A25A000C094D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDEDE8A1CA2A25A000C094D /* AppDelegate.m */; };
 		BCDEDE8E1CA2A25A000C094D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDEDE8D1CA2A25A000C094D /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC2054FF1CA2BB8300FBD637 /* Demo_LXChart_SexangleChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo_LXChart_SexangleChart.gif; sourceTree = "<group>"; };
 		BCDEDE831CA2A25A000C094D /* LXChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDEDE871CA2A25A000C094D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCDEDE891CA2A25A000C094D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		BCDEDE7A1CA2A25A000C094D = {
 			isa = PBXGroup;
 			children = (
+				BC2054FF1CA2BB8300FBD637 /* Demo_LXChart_SexangleChart.gif */,
 				BCDEDEB91CA2A266000C094D /* LXChart */,
 				BCDEDE851CA2A25A000C094D /* LXChartDemo */,
 				BCDEDE9F1CA2A25A000C094D /* LXChartDemoTests */,
@@ -298,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2055001CA2BB8300FBD637 /* Demo_LXChart_SexangleChart.gif in Resources */,
 				BCDEDE961CA2A25A000C094D /* LaunchScreen.storyboard in Resources */,
 				BCDEDE931CA2A25A000C094D /* Assets.xcassets in Resources */,
 				BCDEDE911CA2A25A000C094D /* Main.storyboard in Resources */,
@@ -556,6 +560,7 @@
 				BCDEDEB21CA2A25A000C094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCDEDEB31CA2A25A000C094D /* Build configuration list for PBXNativeTarget "LXChartDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +569,7 @@
 				BCDEDEB51CA2A25A000C094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCDEDEB61CA2A25A000C094D /* Build configuration list for PBXNativeTarget "LXChartDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +578,7 @@
 				BCDEDEB81CA2A25A000C094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
